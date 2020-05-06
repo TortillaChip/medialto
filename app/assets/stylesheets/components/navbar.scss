@@ -2,6 +2,13 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: #4a4141;
+    &:hover {
+      border-bottom: 2px solid #4a4141;
+    }
+  }
 }
 
 .navbar-select {
